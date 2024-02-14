@@ -40,9 +40,10 @@
             }
           ],
           "samples": [
-            "hi{Strings}"
+            "{Strings}"
           ]
         },
+        { "name": "String", "slots": [ { "name": "Strings", "type": "AMAZON.SearchQuery" } ], "samples": [ "hi {Strings}" ] }
         {
           "name": "Select",
           "slots": [
